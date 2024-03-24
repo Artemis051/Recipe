@@ -66,7 +66,7 @@ export default defineConfig({
     host: true,
     proxy: {
       '/graphql': {
-        target: 'http://localhost:3001', //make sure it's the right port, as wing
+        target: 'http://localhost:3005', //make sure it's the right port, as wing
         secure: false,
         changeOrigin: true,
       }
